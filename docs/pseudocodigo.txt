@@ -1,0 +1,33 @@
+Pseudocódigo – Controle de Notas
+
+Início
+
+    Definir i = 1
+    Ler quantidade_alunos
+
+    Enquanto i <= quantidade_alunos faça
+
+        Ler nome_do_aluno
+        Ler matricula_do_aluno
+
+        Ler nota1
+        Ler nota2
+        Ler nota3
+
+        calcular_media = (nota1 + nota2 + nota3) / 3
+
+        Se calcular_media >= 7 então
+            situacao = "Aprovado"
+        Senão
+            situacao = "Reprovado"
+        Fim Se
+
+        Mostrar "Aluno:", nome_do_aluno
+        Mostrar "Média:", calcular_media
+        Mostrar "Situação:", situacao
+
+        i = i + 1
+
+    Fim Enquanto
+
+Fim

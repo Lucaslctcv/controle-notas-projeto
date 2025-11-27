@@ -1,0 +1,7 @@
+Definição dos Headers
+
+Os arquivos .h foram criados para organizar o projeto e evitar misturar funções diferentes no mesmo lugar. Cada header declara apenas as funções que pertencem ao módulo correspondente.
+
+Por exemplo, exibicao.h guarda apenas as funções relacionadas à exibição dos dados, enquanto entrada.h possui apenas funções de leitura. Isso deixa claro para o programador onde cada função está e qual módulo deve ser usado quando necessário.
+
+Essa organização também facilita a manutenção, pois qualquer ajuste é feito diretamente no módulo correto, sem confusão entre partes do código.

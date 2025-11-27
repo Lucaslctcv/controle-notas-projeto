@@ -1,0 +1,7 @@
+Análise de Refatoração
+
+Durante o desenvolvimento, percebemos alguns pontos que poderiam ser melhorados na organização do código. A principal mudança foi separar as funções em módulos, deixando cada arquivo responsável apenas por um tipo de tarefa. Isso evitou repetição de código e deixou o projeto mais fácil de entender.
+
+Outra melhoria foi criar um arquivo de tipos, com a struct Aluno, centralizando a definição. Isso ajudou porque qualquer ajuste na estrutura agora é feito em um único lugar.
+
+Também foi removido código que estava misturado, como funções de exibição junto com funções de entrada. Depois da refatoração, cada parte do sistema ficou mais clara e mais simples de manter.

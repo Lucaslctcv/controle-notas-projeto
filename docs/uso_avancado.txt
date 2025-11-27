@@ -1,0 +1,6 @@
+## Uso futuro de estruturas avançadas
+
+- **Vetores (arrays):** Para guardar listas de nomes, matrículas e notas de vários alunos.
+- **Structs:** Para agrupar todas as informações de um aluno (nome, matrícula, notas, média e situação) em um único tipo.
+- **Funções:** Separar lógica (ex.: função para calcular média, função para cadastrar aluno) para facilitar manutenção.
+- **Arquivos:** Salvar e carregar os dados em arquivos para persistência entre execuções.

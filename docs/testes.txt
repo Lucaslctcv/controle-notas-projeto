@@ -1,0 +1,31 @@
+Testes do Sistema – Controle de Notas
+
+Caso 1 – Cadastro de aluno
+Ação: cadastrar um aluno com nome “Ana Souza” e matrícula 10.
+Resultado esperado: aluno armazenado na lista.
+Resultado obtido: cadastro realizado normalmente.
+Status: Passou.
+
+Caso 2 – Inserir notas válidas
+Ação: para a matrícula 10 inserir as notas 8, 7 e 9.
+Resultado esperado: média calculada (8.00) e situação "Aprovado".
+Resultado obtido: média 8.00, situação "Aprovado".
+Status: Passou.
+
+Caso 3 – Inserir nota inválida
+Ação: tentar inserir nota -5.
+Resultado esperado: mensagem de erro e pedido de nova nota.
+Resultado obtido: sistema bloqueou e pediu novamente.
+Status: Passou.
+
+Caso 4 – Matrícula inexistente
+Ação: tentar inserir notas para a matrícula 999.
+Resultado esperado: aviso de que o aluno não existe.
+Resultado obtido: "Aluno nao encontrado."
+Status: Passou.
+
+Caso 5 – Limite máximo de alunos
+Ação: preencher até chegar ao limite de 50 e tentar cadastrar o 51º aluno.
+Resultado esperado: mensagem de limite máximo atingido.
+Resultado obtido: sistema exibiu exatamente essa mensagem.
+Status: Passou.

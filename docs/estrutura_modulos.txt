@@ -1,0 +1,10 @@
+Estrutura dos Módulos
+
+O sistema foi dividido em módulos para separar a lógica em partes menores e mais fáceis de entender. Cada módulo possui uma responsabilidade específica.
+
+- Módulo de Entrada: cuida da leitura dos dados digitados pelo usuário.
+- Módulo de Processamento: calcula médias e decide se o aluno está aprovado ou reprovado.
+- Módulo de Exibição: mostra as informações organizadas para o usuário.
+- Módulo de Dados: faz o controle da lista de alunos cadastrados.
+
+Essa divisão segue o padrão de entrada, processamento e saída (EPS) apresentado na disciplina. Além disso, ajuda a manter o código mais limpo e organizado.

@@ -1,0 +1,41 @@
+Relatório Final – Projeto Integrador (Parte 3)
+
+Este documento descreve os desafios, soluções e aprendizados obtidos durante o desenvolvimento e refatoração do projeto “Controle de Notas”, conforme solicitado na Parte 3 do Projeto Integrador.
+
+1. Desafios Encontrados
+    
+- A organização inicial do código estava toda em um único arquivo, o que dificultava entender a função de cada parte.
+- No início houve dúvida sobre como dividir o código em módulos sem mudar demais a lógica original.
+- Foi necessário aprender como criar arquivos .h e .c correspondentes, além de configurar as ligações entre eles.
+- Outro desafio foi adaptar tudo para usar struct sem perder funcionalidades da Parte 2.
+- Pequenos problemas surgiram ao compilar com múltiplos arquivos (erros de include e organização).
+
+2. Como os desafios foram resolvidos
+
+- O código foi analisado e dividido em módulos mais simples: entrada, processamento, exibição, utilidade e dados.
+- As funções foram separadas conforme suas responsabilidades, o que deixou o main mais limpo.
+- Criamos um arquivo único de tipos (tipos.h) para centralizar todas as structs, facilitando o uso entre módulos.
+- Ajustamos os headers e include guards, garantindo que cada arquivo só tivesse o que realmente precisava.
+- Após cada alteração, realizamos compilações parciais para identificar erros rapidamente.
+- Foram executados novamente os mesmos testes da Parte 2 para verificar que nada foi quebrado.
+
+3. Aprendizados
+
+- A modularização melhora muito a organização e compreensão do código.
+- Structs ajudam a reunir dados relacionados, deixando o código mais limpo e fácil de manter.
+- Entendi melhor como funciona a inclusão de headers e a importância dos include guards.
+- Aprendi a compilar projetos com vários arquivos usando o GCC.
+- A documentação ajuda bastante a entender o que precisa ser feito em cada etapa.
+- Boa parte das dificuldades puderam ser resolvidas por tentativa e erro, reforçando o aprendizado.
+
+4. Melhorias Futuras
+
+- Implementar salvamento e leitura de dados em arquivo, para o programa manter informações entre execuções.
+- Criar um sistema de validação mais completo, evitando entradas inválidas.
+- Aumentar as opções do menu e incluir edição ou remoção de alunos.
+- Melhorar a experiência de uso, talvez com organização diferente do menu.
+- Aplicar novos conteúdos que forem aprendidos ao longo do curso.
+
+Conclusão
+
+A refatoração deixou o projeto mais organizado, mais modular e mais parecido com a estrutura usada em programas maiores. O processo todo ajudou a entender melhor conceitos fundamentais da linguagem C e do desenvolvimento de software.

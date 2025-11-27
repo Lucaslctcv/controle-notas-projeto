@@ -1,0 +1,7 @@
+Definição das Structs
+
+Criamos a struct Aluno para reunir todos os dados necessários de cada estudante em um único tipo. Isso inclui nome, matrícula, notas, média e situação.
+
+Antes, seria preciso trabalhar com várias variáveis separadas. Com a struct, conseguimos passar todos os dados do aluno entre as funções de forma organizada e segura.
+
+A struct também torna o código mais legível e facilita futuras expansões, caso seja necessário adicionar novos campos no sistema.

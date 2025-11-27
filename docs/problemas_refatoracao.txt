@@ -1,0 +1,7 @@
+Problemas Encontrados Antes da Refatoração
+
+No início do projeto, algumas funções estavam misturadas em arquivos únicos, o que dificultava encontrar a parte correta do código. Além disso, algumas variáveis estavam sendo repetidas em diferentes trechos.
+
+Outro problema era o acoplamento entre entrada e exibição. Algumas funções liam dados e já exibiam resultados, o que dificultava a reutilização dessas mesmas funções.
+
+Depois da refatoração, cada função ficou bem localizada em seu módulo, evitando confusão e deixando tudo mais fácil para entender e manter.
